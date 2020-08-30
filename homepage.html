@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>B4Components - HP</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="">
+    <meta name="robots" content="index,follow"/>
+    <meta name="author" content=""/>
+
+    <!--og-->
+    <meta property="og:url" content=""/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content=""/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content=""/>
+
+    <!--twitter-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@"/>
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="#">
+    <link rel="icon" type="image/png" sizes="32x32" href="#">
+    <link rel="icon" type="image/png" sizes="16x16" href="#">
+
+    <!--styles-->
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css"/>
+    <link rel="stylesheet" href="css/slick-slider.1.9.0.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-select-1.13.0.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/ken.burns.css"/>
+</head>
+<body>
+<div class="content-wrapper homepage">
+
+    <header>
+        <!-- Top Brand and Claim -->
+        <div class="top-claim w-100 text-center d-none d-lg-block">
+            <a href="homepage.html">
+                <img class="p-2" src="B4Components/media/B4Components/logos/logodefault.png" alt="Logo"/>
+            </a>
+            <p class="font-italic font-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <!-- Main Navigation -->
+        <nav id="main-nav" class="navbar navbar-expand-md navbar-light border-0 px-0 pb-0 pb-lg-0">
+            <div class="container d-md-flex flex-md-column flex-lg-row d-lg-inline-flex align-items-md-stretch align-items-lg-center">
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                        data-target="#b4c-mobile-menu"
+                        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ditap-ico_mainmenu_mob"></span>
+                </button>
+                <a class="navbar-brand d-block d-lg-none pl-3" href="homepage.html">
+                    <img src="B4Components/media/B4Components/logos/logodefault.png" alt="Logo sm"/>
+
+                </a>
+                <ul class="nav user-cart-menu right-menu justify-content-end align-items-center order-lg-1">
+                    <!-- Login -->
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="#">
+                            <span class="text-sm-shadow">Přihlásit</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Mobile menu also used by mmenu plugin -->
+                <div id="b4c-mobile-menu" class="collapse navbar-collapse" data-btn-back="Zpět">
+                    <!-- Search -->
+                    <ul class="search-nav navbar-nav align-items-lg-center">
+                        <!--<li class="nav-item">-->
+                        <!--<a class="btn-search nav-link d-md-inline-flex d-lg-inline-flex" href="#">-->
+                        <!--<span class=""></span>-->
+                        <!--<span class="text-search pl-2">Hledat</span>-->
+                        <!--</a>-->
+                        <!--</li>-->
+                        <li class="nav-item">
+                            <a class="nav-link p-0" href="#">
+                                <span class="text-sm-shadow">Hledat</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Main menu content, use CSS class active on <li> element -->
+                    <ul class="top-nav navbar-nav w-100 justify-content-md-center">
+                        <li class="nav-item dropdown position-static">
+                            <a class="btn-eshop-submenu nav-link d-md-none" href="#mm-3">Dropdown</a>
+                            <a class="btn-eshop nav-link  dropdown-toggle" href="#"
+                               id="eshopDropdown"
+                               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <!-- E-Shop category menu -->
+                            <div class="dropdown-menu pb-0 w-100" aria-labelledby="eshopDropdown">
+                                <div class="container eshop-menu d-md-flex">
+                                    <ul class="navbar-nav eshop-menu w-100 justify-content-md-center">
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="second-page.html">Second page</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="terms.html">Terms</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="homepage.html">Homepage</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="#">Item second</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="#">Item second</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="#">Item second</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="nav-link" href="#">Item second</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  ml-1" href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Item</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Item</a>
+                        </li>
+                    </ul>
+                    <div class="d-md-none additional-links">
+                        <a class="nav-link" href="#">Under item</a>
+                        <a class="nav-link" href="#">Under item</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-content">
+
+        <!-- Carousel -->
+        <section class="carousel-wrapper position-relative">
+            <div id="b4c-carousel" class="carousel slide carousel-fade transition-timer-carousel"
+                 data-ride="carousel">
+                <ol class="carousel-indicators carousel-indicators-numbers justify-content-start d-flex">
+                    <li data-target="#b4c-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#b4c-carousel" data-slide-to="1"></li>
+                    <li data-target="#b4c-carousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    <div class="carousel-item item active image-wrap">
+                        <img class="carousel-slide" src="B4Components/media/B4Components/backgrounds/slide_01.png"
+                             alt="">
+                        <div class="carousel-caption d-block">
+                            <p class="h3 font-medium">Lorem ipsum</p>
+                            <p class="h4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            <p class="pt-lg-2">
+                                <a href="#" class="btn btn-main btn-pause">Více</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item image-wrap">
+                        <img class="carousel-slide" src="B4Components/media/B4Components/backgrounds/slide_02.png"
+                             alt="">
+                        <div class="carousel-caption d-block">
+                            <p class="h3 font-medium">Lorem ipsum</p>
+                            <p class="h4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            <p class="pt-lg-2">
+                                <a href="#" class="btn btn-main btn-pause">Prohlédnout</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item image-wrap">
+                        <img class="carousel-slide" src="B4Components/media/B4Components/backgrounds/slide_03.png"
+                             alt="">
+                        <div class="carousel-caption d-block">
+                            <p class="h3 font-medium">Lorem ipsum</p>
+                            <p class="h4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                            <p class="pt-lg-2">
+                                <a href="#" class="btn btn-main btn-pause">Více</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="transition-timer-carousel-progress-bar "/>
+            </div>
+        </section>
+
+        <!-- Content center -->
+        <section class="space">
+            <p class="h2 text-center">Content center</p>
+            <div class="container container-700">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p><strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit. Curabitur ligula
+                            sapien, pulvinar a
+                            vestibulum quis, facilisis vel sapien. Nullam sit amet magna in magna gravida vehicula.
+                            Fusce consectetuer risus a nunc. <strong>Aenean vel massa quis mauris vehicula
+                                lacinia</strong>. Sed ut
+                            perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                            totam rem aperiam, <strong>eaque ipsa quae ab illo</strong> inventore veritatis et quasi
+                            architecto beatae
+                            vitae dicta sunt explicabo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content img -->
+        <section class="space">
+            <p class="h2 text-center">Content <span class="text-muted">image</span></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p class="h3">First featurette heading. <span class="text-muted">It’ll blow your mind.</span>
+                        </p>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+                            dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                             src="B4Components/media/B4Components/images/card_05.png" alt=""/>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                             src="B4Components/media/B4Components/images/card_04.png" alt=""/>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="h3">First featurette heading. <span class="text-muted">It’ll blow your mind.</span>
+                        </p>
+                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                            felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
+                            dapibus, tellus ac cursus commodo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4 Cards -->
+        <section class="space">
+            <p class="h2 text-center">Four cards</p>
+            <div class="container">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 py-2">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="card-img-top" src="B4Components/media/B4Components/images/card_04.png"
+                                     alt=""/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-title">Lorem ipsum</p>
+                                <p class="card-text">Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Maecenas
+                                    fermentum, sem in pharetra pellentesque.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 py-2">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="card-img-top" src="B4Components/media/B4Components/images/card_01.png"
+                                     alt="Card image cap"/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-title">Lorem ipsum dolor</p>
+                                <p class="card-text">Phasellus rhoncus. Integer rutrum, orci vestibulum ullamcorper
+                                    ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 py-2">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="card-img-top" src="B4Components/media/B4Components/images/card_02.png"
+                                     alt="Card image cap"/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-title">Lorem ipsum dolor sit</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur
+                                    ligula sapien, pulvinar a vestibulum quis.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3 py-2">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="card-img-top" src="B4Components/media/B4Components/images/card_03.png"
+                                     alt="Card image cap"/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-title">Lorem ipsum</p>
+                                <p class="card-text">Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Maecenas
+                                    fermentum, sem in pharetra pellentesque.
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Form-->
+        <section class="space">
+            <p class="h2 text-center">Form</p>
+            <div class="container container-700 m-auto">
+
+                <form id="ajax-form" class="needs-validation" novalidate>
+                    <hr>
+                    <div class="form-row">
+                        <div class="col-12 col-sm-6 col-md-6 mb-3">
+                            <label for="validationCustom01">First name</label>
+                            <input type="text" name="name" class="form-control" id="validationCustom01"
+                                   placeholder="First name"
+                                   value="John" required>
+                            <div class="invalid-feedback">
+                                Valid first name is required.
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 mb-3">
+                            <label for="validationCustom02">Last name</label>
+                            <input type="text" name="surname" class="form-control" id="validationCustom02"
+                                   placeholder="Last name"
+                                   value="Doe" required>
+                            <div class="invalid-feedback">
+                                Valid last name is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustomUsername">Email</label>
+                            <input type="email" name="email" class="form-control" id="validationCustomUsername"
+                                   placeholder="@" aria-describedby="inputGroupPrepend" value="2@2.hu" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 mb-3">
+                            <label for="validationCustom03">Date of birth</label>
+                            <input type="date" name="date" class="form-control" id="validationCustom03">
+                            <div class="invalid-feedback">
+                                Please provide a valid date.
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 mb-3">
+                            <label for="validationCustom05">Number of children</label>
+                            <input type="number" name="children" class="form-control" id="validationCustom05"
+                                   placeholder="Number">
+                            <div class="invalid-feedback">
+                                Please enter the number.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-2">
+                            <label>Gender</label>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="customControlValidation2"
+                                       name="gender" required>
+                                <label class="custom-control-label" for="customControlValidation2">Male</label>
+                            </div>
+                            <div class="custom-control custom-radio mb-3">
+                                <input type="radio" class="custom-control-input" id="customControlValidation3"
+                                       name="gender" required>
+                                <label class="custom-control-label" for="customControlValidation3">Female</label>
+                                <div class="invalid-feedback">
+                                    Please select from the options.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-main d-block mx-auto" type="submit">Submit form</button>
+                    <hr>
+                </form>
+
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+
+                    })();
+                </script>
+
+            </div>
+        </section>
+
+        <!--Facebook-->
+        <section class="space">
+            <p class="h2 text-center">Facebook</p>
+            <div class="container">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-sm-4 py-2 ds-fb-post">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="ds-fb-img card-img-top" src="B4Components/media/B4Components/images/card_04.png"
+                                     alt=""/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="ds-fb-post-message card-body text-center">
+                                <p class="card-title">Lorem ipsum</p>
+                                <p class="card-text ds-fb-post-date">Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Maecenas
+                                    fermentum, sem in pharetra pellentesque.
+                                </p>
+                            </div>
+                            <a href="#" target="_blank" class="ds-fb-post-link btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-sm-4 py-2 ds-fb-post">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="ds-fb-img card-img-top" src="B4Components/media/B4Components/images/card_04.png"
+                                     alt=""/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="ds-fb-post-message card-body text-center">
+                                <p class="card-title">Lorem ipsum</p>
+                                <p class="card-text ds-fb-post-date">Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Maecenas
+                                    fermentum, sem in pharetra pellentesque.
+                                </p>
+                            </div>
+                            <a href="#" target="_blank" class="ds-fb-post-link btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-sm-4 py-2 ds-fb-post">
+                        <div class="card h-100">
+                            <div class="shiny">
+                                <img class="ds-fb-img card-img-top" src="B4Components/media/B4Components/images/card_04.png"
+                                     alt=""/>
+                                <span class="shine_fx"></span>
+                            </div>
+                            <div class="ds-fb-post-message card-body text-center">
+                                <p class="card-title">Lorem ipsum</p>
+                                <p class="card-text ds-fb-post-date">Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Maecenas
+                                    fermentum, sem in pharetra pellentesque.
+                                </p>
+                            </div>
+                            <a href="#" target="_blank" class="ds-fb-post-link btn btn-main btn-center">Více</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Zoom banner-->
+        <section class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="#" class="d-block position-relative o-h">
+                            <div class="text-zoom">
+                                <div class="text-center">
+                                    <p class="h2 text-white">Zoom banner</p>
+                                    <button class="btn btn-main">Prohlédnout</button>
+                                </div>
+                            </div>
+                            <img class="img-zoom img-fluid"
+                                 src="B4Components/media/B4Components/backgrounds/slide_03.png" alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <!-- Footer top -->
+        <section class="bg-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <a href="#">
+                            <img class="mt-4 mb-4" src="B4Components/media/B4Components/logos/untitled.svg" alt="Logo"/>
+                        </a>
+                        <p class="font-italic font-sm">facebook</p>
+                        <p class="font-italic font-sm">instagram</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <p class="h2">Links</p>
+                        <nav role="float">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Default link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Lorem ipsum</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <p class="h2">Contact</p>
+                        <nav role="float">
+                            <ul class="list-unstyled">
+                                <li>Jízdárenská 590/2a</li>
+                                <li>68201 City</li>
+                                <li>+420 123 444 444</li>
+                                <li>info@emil.cz</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer bottom -->
+        <section class="footer-bottom bg-gray">
+            <div class="container py-3">
+                <div class="d-flex flex-wrap justify-content-around">
+                    <div>
+                        <span class="font-italic text-sm-shadow">Copyright © 2019</span>
+                    </div>
+                    <div>
+                        <a href="#" class="text-sm-shadow pr-1">Terms</a>
+                        <a href="#" class="text-sm-shadow">Privacy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</div>
+
+<!--javascripts-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.mmenu.all.js"></script>
+<script src="js/jquery.mmenu.bootstrap4.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap-select-1.13.0.min.js"></script>
+<script src="js/slick-slider-1.9.0.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--<script>-->
+<!--// This script is for template purposes only, do not use in KENTICO!!!-->
+<!--$(function () {-->
+
+<!--// Instagram feed-->
+<!--// This has to be inside KENTICO webpart and be more secure-->
+<!--(function () {-->
+<!--// var USER_ID = 295382313; //ditap-->
+<!--//var ACCESS_TOKEN = '?'; // ditap-->
+<!--var USER_ID = 8226047327; //anonym-->
+<!--var ACCESS_TOKEN = '8226047327.1677ed0.48182ba6070f47c9957c278f5140fc07'; // anonym-->
+<!--var TAGNAME = 'ditap';-->
+<!--var LIMIT = 8;-->
+<!--var imagesCnt = 0;-->
+<!--var feed = new Instafeed({-->
+<!--target: 'instagram-gallery',-->
+<!--get: "user",-->
+<!--// get: "tagged",-->
+<!--tagName: TAGNAME,-->
+<!--limit: 100,-->
+<!--userId: USER_ID,-->
+<!--sortBy: 'most-recent',-->
+<!--resolution: 'standard_resolution',-->
+<!--accessToken: ACCESS_TOKEN,-->
+<!--template: '<a class="instagramm-item" target="_blank" href="{{link}}">' +-->
+<!--'<span class="instagramm-item-inner" style="background-image: url({{image}});>' +-->
+<!--'<div class="img-backdrop">' +-->
+<!--'</div>' +-->
+<!--'<div class="description-container">' +-->
+<!--//'<p class="caption">{{caption}}</p>' +-->
+<!--'<span class="likes"><i class="ditap-ico_inst_like"></i> {{likes}}</span>' +-->
+<!--'<span class="comments"><i class="ditap-ico_inst_comment"></i> {{comments}}</span>' +-->
+<!--'</div>' +-->
+<!--'</span>' +-->
+<!--'</a>',-->
+<!--filter: function (image) {-->
+
+<!--// uncomment to use the tag filtering-->
+<!--var result = true;-->
+<!--// var result = (image.tags.indexOf(TAGNAME) >= 0);-->
+<!--if (result === true) {-->
+<!--imagesCnt++;-->
+<!--}-->
+
+<!--return (imagesCnt <= LIMIT) ? result : false;-->
+<!--},-->
+<!--after: function () {-->
+<!--if (imagesCnt < LIMIT) {-->
+<!--feed.next();-->
+<!--}-->
+<!--}-->
+<!--});-->
+
+<!--feed.run();-->
+<!--})();-->
+
+<!--});-->
+<!--</script>-->
+</body>
+</html>
